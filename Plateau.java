@@ -55,7 +55,7 @@ class Plateau{
 			this.ajouterPiece(new Cavalier('N', new Position("G8")));
 			this.ajouterPiece(new Tour('N', new Position("H8")));
 			}
-		}
+		
 		else{
 			pieces = new ArrayList<Piece>();
 			this.ajouterPiece(new Tavalier('B', new Position("A1")));
@@ -80,9 +80,9 @@ class Plateau{
 			this.ajouterPiece(new Favalier('N', new Position("F8")));
 			this.ajouterPiece(new Cavalier('N', new Position("G8")));
 			this.ajouterPiece(new Tavalier('N', new Position("H8")));
-			}
 		}
 	}
+	
 
 
     private boolean ajouterPiece(Piece p){
